@@ -1,0 +1,233 @@
+/*start global*/
+a:hover{
+    text-decoration: none
+}
+
+ul li{
+    list-style: none;
+}
+
+/*end global*/
+
+/*start upperbar*/
+
+.upperbar{
+    background-color: #243a47;
+    height: 35px;
+}
+
+.upperbar .pd{
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperbar .pd a{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 500;
+    opacity: 0.9
+    
+}
+
+.upperbar .pd .active{
+    color: black;
+}
+
+.upperbar .bac{
+    background-color: white;
+}
+
+/*end upperbar*/
+
+/*start navbar*/
+
+nav .container{
+    border-bottom: 1px solid #cecccc;
+    display: flex;
+    align-items: center;
+}
+
+nav .brand{
+    display: flex
+}
+
+nav .brand .bicon{
+    color: #ffcb03;
+    font-size: 52px
+}
+
+nav .brand h3{
+    text-transform: uppercase;
+    font-family: initial;
+    letter-spacing: -1px;
+    font-weight: bold;
+    opacity: 0.9;
+    margin-bottom: 0px
+}
+
+nav .brand h5{
+    text-transform: uppercase;
+    opacity: 0.9;
+    margin-top: -8px;
+}
+
+nav .mynav ul, nav .mynav {
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+}
+
+nav .mynav ul li{
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+}
+
+nav .mynav ul li a{
+    color: black;
+    text-transform: capitalize;
+    opacity: 0.9;
+    font-weight: 500
+}
+
+nav .mynav ul li .navicons{
+    color: #31cece;
+    opacity: 0.7;
+    margin-right: 4px;
+}
+
+nav .mynav .log{
+    background-color: #ffcb03;
+    padding: 6px 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border: none;
+    margin-left: 14px;
+}
+
+
+
+nav .res-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.res-icon{
+    margin-left: auto;
+    position: relative;
+    right: 20px;
+}
+
+.fa-align-justify, .fa-align-center{
+    font-size: 25px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.fa-align-center{
+    display: none;
+}
+
+nav .res-nav ul{
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav .res-nav ul li{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    display: none
+}
+
+nav .res-nav button{
+    margin-bottom: 20px;
+    display: none
+}
+
+
+
+/*end navbar*/
+
+/*satrt navsection*/
+
+.navsection a{
+    color: black;
+    opacity: 0.899;
+    margin-left: 14px;
+    margin-right: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.navsection a:hover{
+    opacity: 1
+}
+
+.navsection a .downicon{
+    font-size: 12px;
+}
+
+/*end navsection*/
+
+/*start mainsection*/
+
+.mainsection{
+    background-image: url(../images/beach.jfif);
+    background-size: cover;
+    background-position: left bottom;
+    height: 400px;
+}
+
+.mainsection h1{
+    padding-top: 120px;
+    line-height: 45px;
+    font-size: 50px
+}
+
+.mainsection p{
+    max-width: 500px;
+    font-weight: 500;
+    color: #6f2d2d;
+    margin-top: 20px
+}
+
+/*end mainsection*/
+
+/*start content*/
+
+.content img{
+    height: 200px;
+    width: inherit;
+    max-width: 600px
+}
+
+.content h3{
+    color: #28374a;
+    display: inline-flex;
+    text-transform: capitalize;
+    margin-top: 20px
+}
+
+.content h3:before{
+    content: "  ";
+    display: inline-flex;
+    width: 3px;
+    margin-right: 12px;
+    background-color: yellow;
+}
+
+.content a{
+    color: #273f75;
+    font-weight: 500;
+    margin-top: 12px;
+    width: fit-content;
+}
+
+/*end content*/
+

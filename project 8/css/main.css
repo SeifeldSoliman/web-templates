@@ -1,0 +1,92 @@
+body{
+    background-color: #f0f4f7;
+    text-transform: capitalize;
+    color:#6e768a;
+    height: 230vh;
+}
+
+.trial{
+    font-weight: 500;
+    opacity: 0.8
+}
+
+/*start section1 and section2*/
+
+.pac{
+    background-color: white;
+    border: solid 2px whitesmoke;
+    border-radius: 8px;
+    text-align: -webkit-center;
+}
+
+.pac:hover{
+    border: solid 2px #71ce73;
+}
+
+.pac .line{
+    height: 2px;
+    width: 90%;
+    background-color: #f0f4f7;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pac h5{
+    margin-top: 18px
+}
+
+.pac p{
+    font-weight: 500;
+}
+
+.pac p span{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.pac p .fa-check-circle{
+    margin-right: 4px;
+    color: #71ce73;
+}
+
+.pac button{
+    background-color: #71ce73;
+    color: white;
+    font-weight: 500;
+    text-transform: capitalize;
+    border: outset 1px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    padding: 6px 40px;
+}
+
+.popular1{
+    background-color: #3bbdee;
+    color: white;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 10px;
+    font-size: 12px;
+    position: absolute;
+    left: 74%;
+    top: -25px;
+}
+
+.popular2{
+    background-color: #3bbdee;
+    color: white;
+    border-radius: 50%;
+    width: fit-content;
+    padding: 10px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 80%;
+    left: 2%;
+}
+
+@media (max-width: 768px) {
+    .popular2{bottom: 91%;}
+}
+
+
+/*end section1 and section2*/

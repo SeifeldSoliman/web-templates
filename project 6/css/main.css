@@ -1,0 +1,122 @@
+/*start navbar*/
+nav{
+    background-color: #262626;
+    color: white;
+    border-bottom: 1px solid #fff;
+}
+
+nav .navbar-brand{
+    color: white;
+    font-weight: bold;
+    font-size: 26px
+}
+
+nav .navbar-brand span{
+    font-weight: normal;
+}
+
+nav .navbar-brand:before{
+    content: " ";
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #a6fc74;
+    border-radius: 50%
+}
+
+nav .navbar-nav .nav-link{
+    margin-right: 32px;
+}
+
+nav .navbar-nav .active .nav-link{
+    color: #d23434 !important; 
+}
+
+nav .my-number{
+    border:1px solid #fe9711;
+    border-radius: 25px;
+    padding: 4px 10px;
+}
+nav .my-number .fa-phone{
+    color: #fe9711
+}
+
+/*end navbar*/
+
+
+/*start header*/
+
+header{
+    background-image: url("../images/wp2639536%20-%20Copy.jpg");
+    background-size: cover;
+    height: 60%;
+    padding-top: 10%;
+    color: #fff    
+}
+
+header .text-center span{
+    font-weight: 500;
+    display: inline-flex;
+    align-items: flex-end;
+}
+header .text-center span .fa-play{
+    background-color: #fe9711;
+    padding: 5px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px
+}
+
+header .text-center h1{
+    font-size: 80px;
+    font-weight: lighter;
+    letter-spacing: 5px; 
+}
+
+header .text-center button{
+    color: #fff;
+    background-color: #fe9711;
+    border-radius: 25px;
+    border: 2px solid #fff;
+    padding: 5px 40px;
+    margin-top: 18px;
+}
+
+header .f-div{
+    background-color: #262626;
+}
+
+header .s-div{
+    background-color: #ef8800;
+}
+
+header .t-div{
+    background-color: #fe9711;
+}
+
+header .my-div{
+    color: #fff;
+    padding: 40px;
+}
+
+header .read-more{
+    background-color: #ef8800;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    position: absolute;
+    top: 95%;
+}
+
+@media (max-width: 768px) {
+    header .my-div{
+        margin-top: 22px
+    }
+}
+
+
+/*end header*/

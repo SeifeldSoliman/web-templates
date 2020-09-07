@@ -1,0 +1,226 @@
+/* start navbar */
+
+.bg-color{
+    background-color: #323a45;
+    
+}
+nav .navbar-brand{
+    font-size: 24px
+}
+nav ul li{
+    margin-right: 28px;
+}
+
+nav ul .active{
+    background-color: #2a80b9;
+    border-radius: 8px;
+    padding:3px 
+}
+
+/* end navbar */
+
+/* start header */
+
+.icon{
+    font-size: 18px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 1px 8px 8px 1px;
+    position: absolute;
+    top: 30%;
+    z-index: 2;
+    overflow: hidden;
+}
+.icon a{
+    color: black;
+}
+@media(max-width:992px){
+    .icon{
+        top:70%;
+    }
+}
+
+
+.our-header{
+    background-color: #2a80b9;
+}
+
+.robot{
+    margin-top: 297px;
+    
+}
+
+.rocket{
+    margin-top: 155px;
+    padding: 0px
+}
+
+.heading{
+    margin-top: 225px;
+    padding: 0px;
+}
+@media(max-width:767px){
+    .heading{
+        margin-top: 90px
+    }
+}
+
+.our-header .heading h1{
+    font-size: 45px;
+    letter-spacing: 3px;
+    color: white
+}
+@media(max-width:767px){
+    .our-header .heading h1{
+        font-size: 35px;
+    }
+}
+
+.our-header .heading p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 16px;
+    color: white
+}
+
+.our-header .heading button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    margin-top: 10px;
+    padding: 2px 8px;
+}
+
+
+/* end header */
+
+/* start quote */
+
+.our-quote{
+    background-color: #e9e6e1
+}
+
+.our-quote p{
+    font-size: 25px;
+    color: #807676;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.our-quote p span{
+    color: #2a80b9;
+    font-weight: 500;
+}
+
+.our-quote p span:first-child{
+    background-color: #2a80b9;
+    color: white;
+    foeight: 500;
+    padding: 3px;
+    
+}
+.our-quote p span:last-child{
+    color: #323a45;
+}
+
+/* end quote */
+
+/* start code */
+
+.mt{
+    margin-top: 70px;
+    margin-bottom: 55px;
+}
+
+.our-code .card {
+    background-color: #e9e6e1;
+    margin-bottom: 16px;
+}
+
+.card-icon{
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 8px;
+    font-size: 38px;
+    border-radius: 50%;
+    color: #2a80b9;
+}
+
+.our-code .card-body h6:last-of-type{
+    color: #2a80b9;
+    margin-bottom: 15px;
+}
+
+.our-code .card-body p{
+    color: #584c4c;
+}
+
+
+/* end code */
+
+/* start recent */
+
+.our-recent .card{
+    border: none;
+    padding: 0px;
+    margin-left: 2px;
+    margin-right: 2px;
+    background-color: #34495e;
+    color: white
+}
+
+@media(max-width:767px){
+    .our-recent .card{
+        margin-top: 20px
+    }
+}
+
+/* end recent */
+
+/* start contact */
+
+.our-contact{
+    background-color: #2a80b9;
+    border-top: 1px solid #0a578a;
+    margin-top: 80px;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px   
+}
+
+.our-contact h3{
+    font-weight: normal;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+.our-contact .media-icons{
+    margin-top: 28px
+}
+
+.our-contact .media-icons a{
+    color: white;
+    padding: 14px;
+    font-size: 22px;
+    opacity: 0.5;
+}
+
+.our-contact .media-icons a:hover{
+    opacity: 0.9;
+}
+
+/* end contact */
+
+/* start footer */
+
+.our-footer{
+    background-color: #323a45;
+    color: white;
+    padding: 18px
+}
+
+.our-footer p span {
+    color: indianred;
+    font-weight: bold;
+}
+/* end footer */

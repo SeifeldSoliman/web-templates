@@ -1,2 +1,3 @@
 # web-templates
-templates
+### . please ignore the font and images :)
+### . responsive templates

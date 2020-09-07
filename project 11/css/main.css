@@ -1,0 +1,278 @@
+/* start navbar */
+
+nav .navbar-brand{
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold
+}
+
+nav .nav-link{
+    margin-right: 14px;
+    text-transform: capitalize
+}
+nav .navbar-nav button{
+    margin-right: 14px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+    background-color: #00b5b5;
+    border: solid 1px #00a9a9;   
+}
+
+
+/* end navbar */
+
+/* start header */
+
+header{
+    background-image: url(../images/gvQ9NhQP8wbbM32jXy4V3j.jpg);
+    background-size: 100% 100%;
+    height: 60vh
+}
+
+header h1{
+    color: white;
+    font-weight: bold;
+    font-size: 54px;
+    text-transform: capitalize;
+}
+
+.line{
+    background-color: #00b5b5;
+    width: 40px;
+    height: 4px;
+    display: block;
+}
+
+/* end header */
+
+/* end section1 */
+
+.section1 h2{
+    text-transform: capitalize;
+    font-weight: bold
+}
+
+.section1 p{
+    font-weight: bold;
+    opacity: 0.8
+}
+
+/* end section1 */
+
+/* start section2 */
+
+.section2 .card{
+    box-shadow: 0px 14px 18px 2px #9c9292;
+    border: none
+}
+
+.section2 .top-img1{
+    background-image: url(../images/studio.jpg);
+}
+.section2 .top-img2{
+    background-image: url(../images/outdoor.jpg);
+}
+.section2 .top-img3{
+    background-image: url(../images/person.jpg);
+}
+.section2 .top-img4{
+    background-image: url(../images/wedding.jpg);
+}
+
+.section2 .my-img{
+    background-size: 100% 100%;
+    position: relative;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center 
+}
+
+.overlay{
+    background-color: #00000054;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.section2 .fa-umbrella, .fa-tree, .fa-user, .fa-gem{
+    position: relative;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 10px
+}
+
+.section2 .my-img h5{
+    color: white;
+    position: relative;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 4px
+}
+
+.section2 .my-img p{
+    color: white;
+    position: relative;
+    text-transform: capitalize;
+}
+
+.section2 .card-title{
+    font-size: 32px;
+    font-family: sans-serif
+}
+
+.section2 .card-title sup{
+    font-size: 16px;
+    top: -16px;
+}
+
+.section2 .card-text{
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 6px;
+    opacity: 0.9;  
+}
+
+.section2 .btn-primary{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 0px;
+    border: none;
+    margin-top: 16px;
+    text-transform: capitalize;
+}
+
+.section2 .btn-primary:hover{
+    background-color: #00b5b5;
+    transition: all 0.3s ease-in-out;
+}
+
+.section2 .read{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: #00b5b5;
+    margin-top: 14px;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.section2 .read:hover{
+    text-decoration: none;
+    color: #033838
+}
+
+.section2 .last-p{
+    max-width: 652px;
+    font-weight: bold;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* end section2 */
+
+/* start footer */
+footer{
+    background-color: #121212;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer h1{
+    font-family: cursive;
+    color: white;
+    font-weight: bold
+}
+
+footer h5{
+    color: white;
+}
+
+footer p{
+    color: white;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+footer .soc{
+    color: white;
+    background-color: #3a3434;
+    border-radius: 50%;
+    padding: 6px;
+    margin-right: 3px
+}
+
+footer .soc:hover{
+    color: black;
+    background-color: white;
+    transition: all 0.5s ease-in-out;
+}
+
+footer input{
+    background-color: #1f1e1e;
+    border: 1px solid #3a3434;
+    color: white;
+    padding: 6px;
+    width: 222px;
+    font-size: 14px;
+}
+
+footer input::placeholder{
+	color: white;
+}
+
+footer .insoc{
+    position: absolute;
+    color: white;
+    left: 200px;
+    top: 4px;
+}
+
+/* end footer */
+
+/* start lowerbar */
+
+.lower-bar{
+    background-color: #0a0a0a;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative
+}
+.lower-bar p{
+    color: white;
+    margin-bottom: 4px;
+    text-transform: capitalize;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.lower-bar .nav-lin{
+    color: white;
+    font-size: 14px;
+    opacity: 0.8;
+    margin-right: 18px
+}
+
+.lower-bar .nav-lin:hover{
+    opacity: 1;
+    text-decoration: none
+}
+
+.lower-bar .scroll{
+    color: white;
+    background-color: #3a3434;
+    border-radius: 50%;
+    padding: 6px;
+    position: absolute;
+    top: 22px;
+    right: 30px;
+}
+
+/* end lowerbar */

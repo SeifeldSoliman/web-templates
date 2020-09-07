@@ -1,0 +1,123 @@
+/*start header*/
+
+header{
+    background-image: url("../images/Pracownik-obs%C5%82ugi-biurowej-1024x682-1024x585.jpg");
+    background-size: 100% 100%;
+}
+
+header .overlay{
+    position: absolute;
+    background-color: #0000006e;
+    width: 100%;
+        
+}
+
+/*start nav*/
+
+header .navbar{
+    background-color: #24272ba6;
+    text-transform: capitalize;   
+}
+
+header nav .navbar-brand .fa-accusoft{
+    color: #1bc11b;
+}
+
+header nav .navbar-brand{
+    color: white;
+    font-weight: bold;
+}
+
+header nav .navbar-brand span{
+    color: #949191;
+    font-weight: normal;
+}
+
+header .navbar-nav .nav-item .nav-link{
+    color: white;
+    font-size: 14px;
+    border-right: solid 1px #525252d9;
+    border-left: solid 1px #525252d9;
+    padding: 9px 14px;
+}
+
+/*end nav*/
+
+header h1{
+    color: white;
+    font-size: 85px;
+    font-weight: 400;
+    font-family: initial;
+    margin-top: auto;
+}
+
+header h2{
+    color: white;
+    font-weight: 400;
+}
+
+header .fa-chevron-down{
+    color: white;
+    font-size: 36px;
+    border: solid 2px white;
+    border-radius: 50%;
+    padding: 4px;
+    opacity: 0.6;
+    margin-bottom: 12px;
+}
+
+header .fa-chevron-down:hover{
+    opacity: 1;
+}
+
+
+/*end header*/
+
+/*start section1*/
+
+.section1 .bo{
+    border: solid 1px #c9c9e8;
+    border-radius: 5px;
+    margin: 18px;
+    text-align: center;
+}
+
+.section1 h4{
+    text-transform: uppercase;
+    background-color: white;
+    display: inline-block;
+    padding: 0px 12px;
+    margin-top: -10px;
+    font-family: initial;
+    font-weight: bold;
+}
+
+.section1 h3{
+    font-weight: 700;
+}
+
+.section1 p{
+    color: #4a7475;
+    font-weight: 500;
+}
+
+.section1 .text-secondary{
+    color: purple!important;
+}
+
+.section1 .btn{
+    padding: 3px 16px;
+    text-transform: capitalize;
+    margin-bottom: 14px;
+    width: 120px;
+}
+
+.section1 .btn-secondary{
+    background-color: purple!important;
+}
+
+.section1 sup{
+    font-size: 16px;
+    font-weight: 900;
+}
+/*end section1*/
